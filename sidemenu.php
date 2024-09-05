@@ -1,3 +1,9 @@
+<!-- Sidebar brand starts -->
+<div class="sidebar-brand">
+    <a href="index.html" class="logo">
+      <img src="assets/images/logo.svg" alt="Admin Dashboards" />
+    </a>
+  </div>
 <!-- menu.php -->
 <div class="sidebar-menu">
   <div class="sidebarMenuScroll">

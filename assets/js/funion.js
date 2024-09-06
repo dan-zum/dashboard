@@ -18,5 +18,13 @@ document.addEventListener('DOMContentLoaded', function(){
         historialP.classList.add('current-page');
         span.textContent = 'Historial de pedidos';
         activa_ubicacion.appendChild(span);
+    }else if(partes[4] === 'comprar_stock.php'){
+        historialP.classList.add('current-page');
+        span.textContent = 'Comprar stock';
+        activa_ubicacion.appendChild(span);
+    }else if(partes[4] === 'my_stock.php'){
+        historialP.classList.add('current-page');
+        span.textContent = 'My stock';
+        activa_ubicacion.appendChild(span);
     }
 })

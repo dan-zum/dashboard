@@ -1,7 +1,7 @@
 <!-- Sidebar brand starts -->
 <div class="sidebar-brand">
     <a href="index.php" class="logo">
-      <img src="assets/images/logo.svg" alt="Admin Dashboards" />
+      <img src="assets/images/fav1.png" alt="Admin Dashboards" />
     </a>
   </div>
 <!-- menu.php -->
@@ -32,10 +32,10 @@
         <div class="sidebar-submenu">
           <ul>
             <li>
-              <a href="orders.html">My stock</a>
+              <a href="my_stock.php">My stock</a>
             </li>
             <li>
-              <a href="products.html">Comprar stock</a>
+              <a href="comprar_stock.php">Comprar stock</a>
             </li>
           </ul>
         </div>

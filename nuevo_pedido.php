@@ -92,17 +92,48 @@
           <div class="row">
             <div class="col-xxl-6 col-sm-12 col-12">
               <div class="card">
-                <div class="card-header">
-                  <div class="card-title">¡Bienvenido al nuevo dashboard!</div>
-                </div>
                 <div class="card-body">
-                  <div id="world-map-markers" class="chart-height"></div>
-
+                     <div class='row'>
+                        <div class='col-lg-4'>
+                           <div class='elementos'>
+                                <div class='numeros'><p for="" class=''>1</p></div>
+                                <span>Servicio</span>
+                           </div>
+                        </div>
+                        <div class='col-lg-4'>
+                            <div class='elementos'>
+                                <div class='numeros2'><p for="" class=''>2</p></div>
+                                <span>Configuración</span>
+                           </div>
+                        </div>
+                        <div class='col-lg-4'>
+                            <div class='elementos'>
+                                <div class='numeros2'><p for="" class=''>3</p></div>
+                                <span>Confirmación</span>
+                           </div>
+                        </div>
+                     </div>
+                     <hr><br>
+                     <div class='row'>
+                        <div class='col-lg-12'>
+                            <h1 class='titulo'>Servicio de Marketing</h1>
+                            <label class='sub' for="">Selecciona el servicio de marketing que deseas</label>
+                            <br><br>
+                            <input class='input1' type="text">
+                            <br><br>
+                            <div class='PosicionBoton'>
+                                <input class='botonC' type="submit" value='Continuar'>
+                            </div>
+                        </div>
+                     </div>
+                     <br><br>
                 </div>
               </div>
             </div>
+           
           </div>
           <!-- Row end -->
+
 
         </div>
         <!-- Content wrapper end -->
@@ -127,8 +158,8 @@
     <!-- *************
 			************ Required JavaScript Files *************
 		************* -->
-    <script src="assets/js/funion.js"></script>
     <!-- Required jQuery first, then Bootstrap Bundle JS -->
+    <script src="assets/js/funion.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/modernizr.js"></script>

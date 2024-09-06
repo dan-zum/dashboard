@@ -1,6 +1,6 @@
 <!-- Sidebar brand starts -->
 <div class="sidebar-brand">
-    <a href="index.html" class="logo">
+    <a href="index.php" class="logo">
       <img src="assets/images/logo.svg" alt="Admin Dashboards" />
     </a>
   </div>
@@ -16,10 +16,10 @@
         <div class="sidebar-submenu">
           <ul>
             <li>
-              <a href="index.html" class="current-page">Nuevo Pedido</a>
+              <a href="nuevo_pedido.php" class="nuevoP">Nuevo Pedido</a>
             </li>
             <li>
-              <a href="reports.html">Historial Pedidos</a>
+              <a href="historial_pedidos.php" class="historialP">Historial Pedidos</a>
             </li>
           </ul>
         </div>

@@ -5,7 +5,7 @@
         <!-- Toggle sidebar end -->
 
         <!-- Logo sm starts -->
-        <a href="index.html" class="d-lg-none d-md-block">
+        <a href="index.php" class="d-lg-none d-md-block">
           <img src="assets/images/logo.svg" class="logo-sm" alt="Bootstrap Gallery">
         </a>
         <!-- Logo sm ends -->
@@ -16,7 +16,7 @@
             <i class="bi bi-house"></i>
             <a href="index.html">Home</a>
           </li>
-          <li class="breadcrumb-item breadcrumb-active" aria-current="page">Nuevo Pedido</li>
+          <li class="breadcrumb-item breadcrumb-active activa_ubicacion" aria-current="page"></li>
         </ol>
         <!-- Breadcrumb end -->
 

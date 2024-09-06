@@ -18,6 +18,9 @@
     <link rel="shortcut icon" href="assets/images/favicon.svg">
     <!---Mis estilos--->
     <link rel="stylesheet" href="assets/css/estilos.css">
+
+    <!-- Incluye jQuery desde un CDN (Content Delivery Network) -->
+
     <!-- Title -->
     <title>Bootstrap Admin Dashboards</title>
 
@@ -42,7 +45,10 @@
 
     <!-- Scrollbar CSS -->
     <link rel="stylesheet" href="assets/vendor/overlay-scroll/OverlayScrollbars.min.css">
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Incluye DataTables CSS y JS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
   </head>
 
   <body>
@@ -92,17 +98,57 @@
           <div class="row">
             <div class="col-xxl-6 col-sm-12 col-12">
               <div class="card">
-                <div class="card-header">
-                  <div class="card-title">¡Bienvenido al nuevo dashboard!</div>
-                </div>
                 <div class="card-body">
-                  <div id="world-map-markers" class="chart-height"></div>
-
+                     <div class='row'>
+                       
+                        <table id="myTable" class="display">
+                            <thead>
+                                <tr>
+                                    <th>ID ORDEN</th>
+                                    <th>USUARIO</th>
+                                    <th>RED</th>
+                                    <th>TIPO</th>
+                                    <th>CANTIDAD</th>
+                                    <th>ESTADO</th>
+                                    <th>CREACIÓN</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Row 1 Data 1</td>
+                                    <td>Row 1 Data 2</td>
+                                    <td>Row 2 Data 1</td>
+                                    <td>Row 2 Data 2</td>
+                                    <td>Row 2 Data 1</td>
+                                    <td>Row 2 Data 2</td>
+                                    <td>Row 2 Data 1</td>
+                                </tr>
+                                <tr>
+                                    <td>Row 2 Data 1</td>
+                                    <td>Row 2 Data 2</td>
+                                    <td>Row 2 Data 1</td>
+                                    <td>Row 2 Data 2</td>
+                                    <td>Row 2 Data 1</td>
+                                    <td>Row 2 Data 2</td>
+                                    <td>Row 2 Data 1</td>
+                               
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                        <script>
+                            $(document).ready( function () {
+                                $('#myTable').DataTable();
+                            });
+                        </script>
+                     </div>
                 </div>
               </div>
             </div>
+           
           </div>
           <!-- Row end -->
+
 
         </div>
         <!-- Content wrapper end -->
@@ -127,9 +173,8 @@
     <!-- *************
 			************ Required JavaScript Files *************
 		************* -->
-    <script src="assets/js/funion.js"></script>
     <!-- Required jQuery first, then Bootstrap Bundle JS -->
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/funion.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/modernizr.js"></script>
     <script src="assets/js/moment.js"></script>
